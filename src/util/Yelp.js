@@ -4,7 +4,7 @@ let Yelp = {
   CORS: "https://cors-anywhere.herokuapp.com/",
 
   search(term, location, sortBy) {
-    let params = `term=${term}&location=${location}&sort_by=${sortBy}&limit=6`;
+    let params = `term=${term}&location=${location}&sort_by=${sortBy}`;
     return fetch(this.CORS + this.url + params, {
       headers: {
         Authorization: `Bearer ${this.apiKey}`
