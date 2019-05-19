@@ -34,6 +34,17 @@
   justify-content: space-between;
 }
 
+.Business-address a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(71, 71, 71); 
+  font-weight: 400;
+}
+
+.Business-address a:hover {
+  color: black;
+}
+
 .Business-reviews {
   display: flex;
   flex-direction: column;
